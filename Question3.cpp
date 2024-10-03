@@ -16,11 +16,11 @@ int main(){
   if(age < 18){
     cout<<"not eligilbe for job";
   }
-  else if(age <= 54){
-    cout<<"eligilbe for job";
-  }
   else if(age <= 57){
+    cout<<"eligilbe for job";
+       if(age <= 55){
     cout<<" eligilbe but retirement soon.";
+       }
   }
   else{
     cout<<"Retiremnt Time";
